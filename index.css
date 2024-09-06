@@ -1,0 +1,120 @@
+body {
+    background-color: #C28451;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 23px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('./Images/Egypt.jpeg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+header h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px bisque;
+}
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px bisque;
+}
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-navigation ul li a {
+    color: #333;
+    font-size: 20px;
+}
+
+.main-navigation ul li :hover {
+    background-color:white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.sidebar {
+    float: right;
+    background-color:#5D2D13;
+    font-size: 20px;
+    width: 230px;
+    height: 600px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-top: 55px;
+}
+
+
+.sidebar ul li a {
+    color:#C28451;
+    font-size: 20px;
+    font-weight: 550;
+      
+}
+
+.sidebar ul li :hover{
+    background-color:white ;
+    border-radius: 60px;
+    padding: 9px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    
+}
+
+.content {
+    float: left;
+    width: 70%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.content h3 {
+    
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #5D2D13;
+    color: whitesmoke;
+    clear: both;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: #C28451;
+}
+
+#end {
+    text-align: center;
+    font-size: 18px;
+}

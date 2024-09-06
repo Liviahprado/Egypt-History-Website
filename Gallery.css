@@ -1,0 +1,80 @@
+body {
+    background-color: #E1CB84;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-image: url('./Images/Map3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0;
+    text-shadow: 2px 2px 4px #333;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    display: inline;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.main-navigation ul li a {
+    color: #333;
+}
+
+.main-navigation ul li :hover {
+    background-color:white;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+table{
+    border-spacing: 19px;
+    background-color: #F8EACD;
+}
+
+.sidebar {
+    margin-top: 70px;
+    float: left;
+    background-color:#F8EACD;
+    padding: 8px;
+    text-align: center;
+    font-size: 26px;
+    width: 250px;
+    height: 650px;
+    border-radius: 20px;
+    
+}
+
+.content {
+    align-content: center;
+    padding-left: 110px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #F8EACD;
+    color: #333;
+    padding: 1px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: blue;
+}
+
+#end {
+    text-align: center;
+}
